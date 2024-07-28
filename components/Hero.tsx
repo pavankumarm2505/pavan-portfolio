@@ -29,13 +29,13 @@ const Hero = () => {
                 </h2>
                 <TextGenerateEffect 
                  className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                 words="I'm a Software Engineer from University of South Florida"
+                 words="I'm a CSE Graduate from the University of South Florida"
                 
                 />
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    This is my Portfolio
+                    Explore my portfolio to see my projects and experiences
                 </p>
-                <a href="#about">
+                <a href="#projects">
                     <MagicButton 
                     title="Show my work" 
                     icon = {<MdDoubleArrow />}

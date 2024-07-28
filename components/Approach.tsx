@@ -8,16 +8,16 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">approach</span>
+            My <span className="text-purple">Approach</span> for a collaborative project
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Planning & Strategy" icon={<AceternityIcon order   = "Phase1" />} description="lorem ipsum">
+        <Card title="Planning & Strategy" icon={<AceternityIcon order   = "Phase1" />} description="In this phase, we work together to understand our project's goals and requirements. We brainstorm ideas, conduct initial research, and outline the project scope. We create a project plan and timeline to keep us on track and identify any potential challenges early on.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Progress Update" icon={<AceternityIcon order="Phase 2"/>} description="lorem ipsum">
+        <Card title="Progress Update" icon={<AceternityIcon order="Phase 2"/>} description="This phase involves regular check-ins to discuss our progress and any obstacles we encounter. We share updates, gather feedback from each other, and make adjustments to our plan as needed. These updates help ensure everyone is aligned and moving forward together.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -29,7 +29,7 @@ const Approach = () => {
           />
           
         </Card>
-        <Card title="Development and Launch" icon={<AceternityIcon order="Phase 3"/>} description="lorem ipsum">
+        <Card title="Development and Launch" icon={<AceternityIcon order="Phase 3"/>} description="In the final phase, we focus on building and refining our project. We write code, test our work, and incorporate any feedback. Once we're satisfied with the results, we prepare for the final presentation or deployment, ensuring everything is ready for launch. After launching, we reflect on our achievements and lessons learned.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
