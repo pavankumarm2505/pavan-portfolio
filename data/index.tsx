@@ -20,7 +20,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I would love to travel around the world but have to earn first😁",
+      title: "I love to travel but have to earn first😁",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
