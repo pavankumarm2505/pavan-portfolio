@@ -78,7 +78,7 @@ export const navItems = [
       des: "An AI Helps career aspirants in 30+ more professions for their interviews, both technical and behavioral",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/pavankumarm2505/gimmejob",
+      link: "github.com/pavankumarm2505/gimmejob",
     },
     {
       id: 2,
